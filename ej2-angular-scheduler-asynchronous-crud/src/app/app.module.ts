@@ -18,7 +18,7 @@ import { DataService } from './data.service';
     ScheduleAllModule,
     HttpClientModule,
     HttpClientInMemoryWebApiModule.forRoot(DataService),
-    InMemoryWebApiModule.forRoot(DataService, { delay: 5000 })
+    InMemoryWebApiModule.forRoot(DataService, { delay: 1000 })
   ],
   providers: [CrudService],
   bootstrap: [AppComponent]
